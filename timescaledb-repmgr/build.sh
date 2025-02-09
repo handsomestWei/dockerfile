@@ -1,0 +1,1 @@
+docker build -t wjy2020/timescaledb-repmgr:pg14.15-ts2.17.2 .
