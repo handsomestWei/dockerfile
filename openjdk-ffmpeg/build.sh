@@ -1,0 +1,1 @@
+docker build -t wjy2020/openjdk-ffmpeg:jre8-ffmpeg4.3.8 .
