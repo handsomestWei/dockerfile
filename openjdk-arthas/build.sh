@@ -1,0 +1,1 @@
+docker build -t wjy2020/openjdk-arthas:jdk8 .
