@@ -43,6 +43,11 @@ pg-0:
 ## 该配置项必须，添加timescaledb时序数据库扩展
 shared_preload_libraries = 'repmgr,timescaledb'
 
+# TimescaleDB收集匿名使用数据，以帮助我们更好地了解和协助我们的用户。
+# timescaledb.telemetry_level=basic
+# 禁用遥测。也可能是钓鱼
+timescaledb.telemetry_level=off
+
 ## 其他pg参数按需配置和调整
 ```
 
